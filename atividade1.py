@@ -29,12 +29,12 @@ def calcular_valor_hora(categoria, turno):
     if categoria == "G":
         if turno == "N":
             return salario_minimo * 0.10
-        else:  # M ou V
+        else:
             return salario_minimo * 0.15
-    else:  # Operário
+    else:
         if turno == "N":
             return salario_minimo * 0.09
-        else:  # M ou V
+        else:
             return salario_minimo * 0.14
 
 while True:
